@@ -1,5 +1,5 @@
 context:
-  version: "0.9.4.1"
+  version: "1.0.0"
 
 package:
   name: bayesian-analysis-toolkit
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bat/bat/releases/download/v${{ version }}/BAT-${{ version }}.tar.gz
-  sha256: d46c6f834cb5888bbf4db393887190380132fa48816e0804f79c4a3cc344ef87
+  sha256: 620e8069d85f18f8504137823621cbb578fa5b159e3074f0f2379ac295dd1482
   patches:
     - BAT-0.9.4.1-cxx17.patch
     - BAT-0.9.4.1-dict.patch
