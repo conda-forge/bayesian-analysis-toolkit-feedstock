@@ -15,7 +15,7 @@ source:
     - BAT-0.9.4.1-rootcling-flags.patch
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
   script:
